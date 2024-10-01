@@ -1,0 +1,12 @@
+[project]
+name = "minimal-endpoint-generator"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.20.0",
+    "fastapi>=0.115.0",
+    "greenlet>=3.1.1",
+    "sqlmodel>=0.0.22",
+    "uuid7>=0.1.0",
+    "uvicorn>=0.31.0",
+]
